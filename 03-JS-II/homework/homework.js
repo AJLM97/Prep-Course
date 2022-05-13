@@ -155,12 +155,12 @@ function esPrimo(numero) {
   if(numero > 1) {
     for(x = 2; x < numero - 1; x++) {
       if(numero % x == 0) {
-        return false
+        return false;
       }
     }
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
@@ -183,7 +183,7 @@ function tablaDelSeis(){
   for(x = 0; x <= 10; x++) {
     array.push(x * 6)
   }
-  return array
+  return array;
 }
 
 function tieneTresDigitos(numero){
